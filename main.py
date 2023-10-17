@@ -2,7 +2,6 @@ import random
 import customtkinter as ctk
 
 
-
 def gerar_numeros():
     aposta = random.sample(range(1, 61), 6)
     aposta.sort()
